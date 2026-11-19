@@ -7,6 +7,24 @@ A FastAPI service that turns a free-text sector (e.g. "generative AI", "oil and 
 
 Pinecone decides *which companies are in the sector* (vector search over organization embeddings); Postgres computes *what happened to them* (aggregations in SQL). An optional two-sentence GPT takeaway summarizes each result.
 
+## Why these trends
+
+Both trends answer questions about a sector the user names in their own words, so they work for niches that have no standard industry code ("carbon capture", "legal tech") as well as for broad ones.
+
+**Sector Funding Snapshot: where is capital going, and at what stage?**
+
+- **Investors** (venture, growth, private equity) use it to judge how crowded a sector is and how mature: a sector dominated by seed rounds is early and still open, while one dominated by late-stage and debt rounds is consolidating and expensive to enter.
+- **Bankers and lenders** use the stage mix and the largest rounds to find companies likely to raise again or to need debt, and to benchmark a client's raise against the sector median.
+- **Analysts** use `market_share` to tell whether a sector is gaining or losing its share of total funding, which is a fairer comparison than raw totals because data coverage differs by period.
+
+**Sector M&A Landscape: who is buying, and how do companies exit?**
+
+- **Investors** use deal counts over time and disclosed prices to estimate how likely an exit is and what it might be worth before they commit capital.
+- **M&A advisers and corporate development teams** use the most active acquirers to build buyer lists for a sale and to see which competitors are consolidating the sector.
+- **Anyone valuing a company** uses the split between strategic buyers (companies) and financial buyers (investors), together with deal types and payment terms, to understand who sets prices in the sector and how deals are structured.
+
+Read together, the two show a sector's life cycle: money going in through funding rounds, and money coming out through acquisitions.
+
 ## Setup
 
 Requires Python 3.10+.
