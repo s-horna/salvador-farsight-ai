@@ -1,0 +1,109 @@
+configuration,wording,top_k,min_similarity,similarity_window,kind,query,labelled_companies,top_similarity,rejected,companies_matched,relevant_matched,precision,recall,f1,top_unlabelled_matches
+current,raw,500,0.3,0.12,broad,artificial intelligence,1656,0.4296,False,500,428,0.856,0.2585,0.397,OneBrain AI; AIBone; Promptsideas; Gradient Labs; Cassidy
+current,raw,500,0.3,0.12,broad,healthcare,3299,0.4766,False,500,453,0.906,0.1373,0.2385,Tennova Healthcare- Cleveland; RevolutionaryMD Holistic Medicine; EM Systems; Adventa; Kingsbridge Healthcare Group
+current,raw,500,0.3,0.12,broad,financial services,2809,0.5734,False,500,435,0.87,0.1549,0.2629,Commonwealth Bank of Australia - Personal Advice Business; Poytakht Bank; MOS: Business In A Box; TMF Group; National Housing Bank
+current,raw,500,0.3,0.12,broad,biotechnology,1790,0.4937,False,242,218,0.9008,0.1218,0.2146,Nalca Biotech; Bumi Teknokultura Unggul; Officinae Bio - DNA and RNA Business; Cellular Origins; Autologous Cell Therapy Industrial Automation
+current,raw,500,0.3,0.12,broad,energy,1266,0.3188,False,20,16,0.8,0.0126,0.0249,Splight; Hybrid Power Solutions; illumion; Trinergy
+current,raw,500,0.3,0.12,broad,real estate,970,0.492,False,500,399,0.798,0.4113,0.5429,China Resources Land; Galimmo SCA; Ishaan Infrastructures And Shelters; Mori Hills REIT; Plenitude
+current,raw,500,0.3,0.12,broad,insurance,802,0.435,False,500,447,0.894,0.5574,0.6866,Rey.id; Switch Health; High Street Insurance Partners; Gulf Union Cooperative Insurance Co.; e-TeleQuote
+current,raw,500,0.3,0.12,broad,oil and gas,720,0.5422,False,479,410,0.8559,0.5694,0.6839,Equinor Nigeria Energy; Aroway Energy; Blacksteel Energy; LEGACY RESERVES; OCTANEX
+current,raw,500,0.3,0.12,broad,mining,910,0.5022,False,500,395,0.79,0.4341,0.5603,Joy Global; MineHub Technologies; BitFuFu; Metanor Resources; Prasinus Exploration
+current,raw,500,0.3,0.12,broad,e-commerce,1002,0.5338,False,140,119,0.85,0.1188,0.2084,Dukaan®; Amaze Software; Orium; O2 Commerce; ACROVE
+current,raw,500,0.3,0.12,medium,fintech payments,433,0.6452,False,230,148,0.6435,0.3418,0.4465,Matera; DigiAsia Bios; Change Financial; Galaxia Money Tree; Numeral
+current,raw,500,0.3,0.12,medium,cybersecurity,574,0.5286,False,312,259,0.8301,0.4512,0.5847,c5i; CR Group; CyberAntix; Dionach; SecurView
+current,raw,500,0.3,0.12,medium,renewable energy,848,0.4618,False,430,358,0.8326,0.4222,0.5603,Sindal Biogas; Simec Atlantis Energy; Bhadla Three SKP Green Ventures; Fujian Mindong Electric Power; Polaris Renewable Energy
+current,raw,500,0.3,0.12,medium,semiconductors,321,0.4914,False,211,150,0.7109,0.4673,0.5639,Shenzhen Sanrise Tech; Lattice Microelectronics; NanoLN; Riber; Zhongke Bosheng
+current,raw,500,0.3,0.12,medium,medical devices,696,0.5432,False,385,295,0.7662,0.4239,0.5458,Greatbatch; Merit Medical Systems; Omnica; NUANCE MEDICAL; Visiomed
+current,raw,500,0.3,0.12,medium,blockchain and crypto,583,0.4789,False,461,391,0.8482,0.6707,0.749,CryptoManufaktur; BonusBlock; Spire; M^0 Labs; Saakuru
+current,raw,500,0.3,0.12,medium,robotics,315,0.5243,False,153,136,0.8889,0.4317,0.5812,Universal Field Robots; ENCOS; C G I; Jinshi Robot; GenRobotic
+current,raw,500,0.3,0.12,medium,video games,404,0.4381,False,260,228,0.8769,0.5644,0.6867,Param Labs Inc; Red Hook Studios; Pentagon Games; Slitherine; Felicity Games
+current,raw,500,0.3,0.12,medium,aerospace,376,0.5311,False,176,138,0.7841,0.367,0.5,Bellatrix Aerospace; NASA Stennis Space Center; Calspan - Hypersonics and Test Systems Business; Orbital Sciences Corporation; Pacific Aerospace Consulting
+current,raw,500,0.3,0.12,medium,cloud computing,521,0.4811,False,183,127,0.694,0.2438,0.3608,Bulutistan; Gongji Technology; VALDI; HIGHRESO; Digital Realty - Local Cloud Services Business
+current,raw,500,0.3,0.12,medium,electric vehicles,187,0.5145,False,160,114,0.7125,0.6096,0.6571,VMAX; Allego; Verkor; Eon Motors Group SA; Mooev Technolgies
+current,raw,500,0.3,0.12,medium,generative AI,168,0.5898,False,60,47,0.7833,0.2798,0.4123,Fireworks AI; Dynamiq; Hedra; Moonvalley; Yurts Technologies
+current,raw,500,0.3,0.12,medium,insurtech,172,0.6253,False,104,80,0.7692,0.4651,0.5797,Bimafy; Integrity Marketing Group; Bharatsure; InsuraGuest; Vertafore
+current,raw,500,0.3,0.12,medium,education technology,272,0.5272,False,169,114,0.6746,0.4191,0.517,"ZKLC Software; Blackboard; Five-Star Technology Solutions; edu forma.pl; Wuhan Guangchi Education & Technology Co.,Ltd"
+current,raw,500,0.3,0.12,medium,agriculture technology,131,0.543,False,141,73,0.5177,0.5573,0.5368,Agcurate; MoooFarm; ISAGRI; Four Growers; InCeres
+current,raw,500,0.3,0.12,narrow,quantum computing,28,0.5683,False,30,21,0.7,0.75,0.7241,Atom Computing; Quantum transistors; Qolab; Bose Quantum; QuEra Computing
+current,raw,500,0.3,0.12,narrow,drones,61,0.492,False,54,35,0.6481,0.5738,0.6087,Equinox Innovative Systems; Echelon AI; Flyz Robotics; Vaimanika Aerospace; Unusual Machines
+current,raw,500,0.3,0.12,narrow,3D printing,83,0.5187,False,45,37,0.8222,0.4458,0.5781,WOL3D; BCN3D; Ziknes; Freeform; Type A Machines
+current,raw,500,0.3,0.12,narrow,cannabis,96,0.4519,False,132,85,0.6439,0.8854,0.7456,Agmedica Bioscience; Driven by Stem; Stem Holdings; Dark Horse Cannabis; GTEC Holdings
+current,raw,500,0.3,0.12,narrow,carbon capture,33,0.5778,False,24,19,0.7917,0.5758,0.6667,Cool Planet Technologies; Ucaneo; Mantel; Eion; 44.01
+current,raw,500,0.3,0.12,narrow,wind energy,38,0.515,False,89,25,0.2809,0.6579,0.3937,PT UPC Sidrap Bayu Energi; Ogin; China Ming Yang Wind Power Group; Mytrah Energy; WindStream Technologies
+current,raw,500,0.3,0.12,narrow,mental health,66,0.4016,False,90,51,0.5667,0.7727,0.6538,Kahi Mohala; GoodLives; ifeel; Kyan Health; Slingshot AI
+current,raw,500,0.3,0.12,narrow,legal tech,54,0.5842,False,61,37,0.6066,0.6852,0.6435,Office & Dragons; Genie AI; Primary Opinion; Klea; Safe Sign Technologies
+current,raw,500,0.3,0.12,narrow,satellite communications,55,0.571,False,53,28,0.5283,0.5091,0.5185,Neo Space Group; Yahsat; Globalstar; Infosat Communications; ATLAS Space Operations
+current,raw,500,0.3,0.12,narrow,craft beer and brewing,55,0.5514,False,48,32,0.6667,0.5818,0.6214,FX Matt Brewing Co; Rising Tide Brewing Company; Hop Valley Brewing Co; Revolver Brewing; Fell Brewery
+current,raw,500,0.3,0.12,narrow,pet care,85,0.5292,False,73,52,0.7123,0.6118,0.6582,Arcaplanet; National Veterinary Care; Banfield Pet Hospital; Independence Pet Holdings; BetterVet
+current,raw,500,0.3,0.12,narrow,battery energy storage,199,0.5179,False,138,95,0.6884,0.4774,0.5638,PowerPlay Battery Energy Storage Systems; GridStor; Molyon; Bedrock Materials; superstate
+current,raw,500,0.3,0.12,narrow,nuclear energy,24,0.4549,False,37,13,0.3514,0.5417,0.4262,GE Vernova - steam nuclear business; Radiant; Framatome; X-energy; Antares
+current,raw,500,0.3,0.12,narrow,autonomous vehicles,104,0.5446,False,53,36,0.6792,0.3462,0.4586,Turing; KargoBot; Qcraft; Stanley Robotics; TrunkTech
+current,raw,500,0.3,0.12,narrow,oncology,105,0.4458,False,168,76,0.4524,0.7238,0.5568,Oncologistas Associados; Coulter Corporation; Carevive Systems; Ascelia Pharma; Theriva Biologics
+current,raw,500,0.3,0.12,ambiguous,apple,0,0.4047,False,17,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,ambiguous,amazon,0,0.3844,False,45,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,ambiguous,mercury,0,0.2579,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,ambiguous,java,0,0.252,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,ambiguous,oracle,0,0.3399,False,10,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,ambiguous,shell,0,0.2912,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,nonsense,asdfghjkl qwerty,0,0.2356,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,nonsense,purple monkey dishwasher,0,0.2144,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,nonsense,lorem ipsum dolor sit amet,0,0.1955,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,nonsense,xyzzy plugh,0,0.2472,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,nonsense,the quick brown fox jumps over the lazy dog,0,0.1918,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,nonsense,happy birthday to you,0,0.171,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,nonsense,12345 67890,0,0.1553,True,0,0,0.0,0.0,0.0,
+current,raw,500,0.3,0.12,nonsense,blorptastic zinglewomp,0,0.2316,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,broad,artificial intelligence,1656,0.4296,False,1000,793,0.793,0.4789,0.5971,OneBrain AI; AIBone; Promptsideas; Gradient Labs; Cassidy
+recommended,raw,1000,0.28,0.16,broad,healthcare,3299,0.4766,False,1000,891,0.891,0.2701,0.4145,Tennova Healthcare- Cleveland; RevolutionaryMD Holistic Medicine; EM Systems; Adventa; Kingsbridge Healthcare Group
+recommended,raw,1000,0.28,0.16,broad,financial services,2809,0.5734,False,1000,858,0.858,0.3054,0.4505,Commonwealth Bank of Australia - Personal Advice Business; Poytakht Bank; MOS: Business In A Box; TMF Group; National Housing Bank
+recommended,raw,1000,0.28,0.16,broad,biotechnology,1790,0.4937,False,644,572,0.8882,0.3196,0.47,Nalca Biotech; Bumi Teknokultura Unggul; Officinae Bio - DNA and RNA Business; Cellular Origins; Autologous Cell Therapy Industrial Automation
+recommended,raw,1000,0.28,0.16,broad,energy,1266,0.3188,False,121,89,0.7355,0.0703,0.1283,Splight; Hybrid Power Solutions; illumion; Trinergy; Axle Energy
+recommended,raw,1000,0.28,0.16,broad,real estate,970,0.492,False,944,662,0.7013,0.6825,0.6917,China Resources Land; Galimmo SCA; Ishaan Infrastructures And Shelters; Mori Hills REIT; Plenitude
+recommended,raw,1000,0.28,0.16,broad,insurance,802,0.435,False,812,643,0.7919,0.8017,0.7968,Rey.id; Switch Health; High Street Insurance Partners; Gulf Union Cooperative Insurance Co.; e-TeleQuote
+recommended,raw,1000,0.28,0.16,broad,oil and gas,720,0.5422,False,681,523,0.768,0.7264,0.7466,Equinor Nigeria Energy; Aroway Energy; Blacksteel Energy; LEGACY RESERVES; OCTANEX
+recommended,raw,1000,0.28,0.16,broad,mining,910,0.5022,False,1000,758,0.758,0.833,0.7937,Joy Global; MineHub Technologies; BitFuFu; Metanor Resources; Prasinus Exploration
+recommended,raw,1000,0.28,0.16,broad,e-commerce,1002,0.5338,False,327,265,0.8104,0.2645,0.3988,Dukaan®; Amaze Software; Orium; O2 Commerce; ACROVE
+recommended,raw,1000,0.28,0.16,medium,fintech payments,433,0.6452,False,428,234,0.5467,0.5404,0.5436,Matera; DigiAsia Bios; Change Financial; Galaxia Money Tree; Numeral
+recommended,raw,1000,0.28,0.16,medium,cybersecurity,574,0.5286,False,467,362,0.7752,0.6307,0.6955,c5i; CR Group; CyberAntix; Dionach; SecurView
+recommended,raw,1000,0.28,0.16,medium,renewable energy,848,0.4618,False,655,495,0.7557,0.5837,0.6587,Sindal Biogas; Simec Atlantis Energy; Bhadla Three SKP Green Ventures; Fujian Mindong Electric Power; Polaris Renewable Energy
+recommended,raw,1000,0.28,0.16,medium,semiconductors,321,0.4914,False,413,236,0.5714,0.7352,0.6431,Shenzhen Sanrise Tech; Lattice Microelectronics; NanoLN; Riber; Zhongke Bosheng
+recommended,raw,1000,0.28,0.16,medium,medical devices,696,0.5432,False,648,457,0.7052,0.6566,0.6801,Greatbatch; Merit Medical Systems; Omnica; NUANCE MEDICAL; Visiomed
+recommended,raw,1000,0.28,0.16,medium,blockchain and crypto,583,0.4789,False,605,474,0.7835,0.813,0.798,CryptoManufaktur; BonusBlock; Spire; M^0 Labs; Saakuru
+recommended,raw,1000,0.28,0.16,medium,robotics,315,0.5243,False,228,182,0.7982,0.5778,0.6703,Universal Field Robots; ENCOS; C G I; Jinshi Robot; GenRobotic
+recommended,raw,1000,0.28,0.16,medium,video games,404,0.4381,False,357,296,0.8291,0.7327,0.7779,Param Labs Inc; Red Hook Studios; Pentagon Games; Slitherine; Felicity Games
+recommended,raw,1000,0.28,0.16,medium,aerospace,376,0.5311,False,310,231,0.7452,0.6144,0.6735,Bellatrix Aerospace; NASA Stennis Space Center; Calspan - Hypersonics and Test Systems Business; Orbital Sciences Corporation; Pacific Aerospace Consulting
+recommended,raw,1000,0.28,0.16,medium,cloud computing,521,0.4811,False,335,202,0.603,0.3877,0.472,Bulutistan; Gongji Technology; VALDI; HIGHRESO; Digital Realty - Local Cloud Services Business
+recommended,raw,1000,0.28,0.16,medium,electric vehicles,187,0.5145,False,224,129,0.5759,0.6898,0.6277,VMAX; Allego; Verkor; Eon Motors Group SA; Mooev Technolgies
+recommended,raw,1000,0.28,0.16,medium,generative AI,168,0.5898,False,99,62,0.6263,0.369,0.4644,Fireworks AI; Dynamiq; Hedra; Moonvalley; Yurts Technologies
+recommended,raw,1000,0.28,0.16,medium,insurtech,172,0.6253,False,146,94,0.6438,0.5465,0.5912,Bimafy; Integrity Marketing Group; Bharatsure; InsuraGuest; Vertafore
+recommended,raw,1000,0.28,0.16,medium,education technology,272,0.5272,False,285,177,0.6211,0.6507,0.6355,"ZKLC Software; Blackboard; Five-Star Technology Solutions; edu forma.pl; Wuhan Guangchi Education & Technology Co.,Ltd"
+recommended,raw,1000,0.28,0.16,medium,agriculture technology,131,0.543,False,214,90,0.4206,0.687,0.5217,Agcurate; MoooFarm; ISAGRI; Four Growers; InCeres
+recommended,raw,1000,0.28,0.16,narrow,quantum computing,28,0.5683,False,33,23,0.697,0.8214,0.7541,Atom Computing; Quantum transistors; Qolab; Bose Quantum; QuEra Computing
+recommended,raw,1000,0.28,0.16,narrow,drones,61,0.492,False,70,43,0.6143,0.7049,0.6565,Equinox Innovative Systems; Echelon AI; Flyz Robotics; Vaimanika Aerospace; Unusual Machines
+recommended,raw,1000,0.28,0.16,narrow,3D printing,83,0.5187,False,61,40,0.6557,0.4819,0.5556,WOL3D; BCN3D; Ziknes; Freeform; Type A Machines
+recommended,raw,1000,0.28,0.16,narrow,cannabis,96,0.4519,False,146,90,0.6164,0.9375,0.7438,Agmedica Bioscience; Driven by Stem; Stem Holdings; Dark Horse Cannabis; GTEC Holdings
+recommended,raw,1000,0.28,0.16,narrow,carbon capture,33,0.5778,False,36,21,0.5833,0.6364,0.6087,Cool Planet Technologies; Ucaneo; Mantel; Eion; 44.01
+recommended,raw,1000,0.28,0.16,narrow,wind energy,38,0.515,False,215,32,0.1488,0.8421,0.253,PT UPC Sidrap Bayu Energi; Ogin; China Ming Yang Wind Power Group; Mytrah Energy; WindStream Technologies
+recommended,raw,1000,0.28,0.16,narrow,mental health,66,0.4016,False,107,57,0.5327,0.8636,0.659,Kahi Mohala; GoodLives; ifeel; Kyan Health; Slingshot AI
+recommended,raw,1000,0.28,0.16,narrow,legal tech,54,0.5842,False,78,42,0.5385,0.7778,0.6364,Office & Dragons; Genie AI; Primary Opinion; Klea; Safe Sign Technologies
+recommended,raw,1000,0.28,0.16,narrow,satellite communications,55,0.571,False,71,32,0.4507,0.5818,0.5079,Neo Space Group; Yahsat; Globalstar; Infosat Communications; ATLAS Space Operations
+recommended,raw,1000,0.28,0.16,narrow,craft beer and brewing,55,0.5514,False,57,37,0.6491,0.6727,0.6607,FX Matt Brewing Co; Rising Tide Brewing Company; Hop Valley Brewing Co; Revolver Brewing; Fell Brewery
+recommended,raw,1000,0.28,0.16,narrow,pet care,85,0.5292,False,117,77,0.6581,0.9059,0.7624,Arcaplanet; National Veterinary Care; Banfield Pet Hospital; Independence Pet Holdings; BetterVet
+recommended,raw,1000,0.28,0.16,narrow,battery energy storage,199,0.5179,False,202,120,0.5941,0.603,0.5985,PowerPlay Battery Energy Storage Systems; GridStor; Molyon; Bedrock Materials; superstate
+recommended,raw,1000,0.28,0.16,narrow,nuclear energy,24,0.4549,False,77,14,0.1818,0.5833,0.2772,GE Vernova - steam nuclear business; Radiant; Framatome; X-energy; Antares
+recommended,raw,1000,0.28,0.16,narrow,autonomous vehicles,104,0.5446,False,98,45,0.4592,0.4327,0.4455,Turing; KargoBot; Qcraft; Stanley Robotics; TrunkTech
+recommended,raw,1000,0.28,0.16,narrow,oncology,105,0.4458,False,323,90,0.2786,0.8571,0.4206,Oncologistas Associados; Coulter Corporation; Carevive Systems; Ascelia Pharma; Theriva Biologics
+recommended,raw,1000,0.28,0.16,ambiguous,apple,0,0.4047,False,54,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,ambiguous,amazon,0,0.3844,False,111,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,ambiguous,mercury,0,0.2579,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,ambiguous,java,0,0.252,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,ambiguous,oracle,0,0.3399,False,21,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,ambiguous,shell,0,0.2912,False,3,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,nonsense,asdfghjkl qwerty,0,0.2356,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,nonsense,purple monkey dishwasher,0,0.2144,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,nonsense,lorem ipsum dolor sit amet,0,0.1955,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,nonsense,xyzzy plugh,0,0.2472,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,nonsense,the quick brown fox jumps over the lazy dog,0,0.1918,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,nonsense,happy birthday to you,0,0.171,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,nonsense,12345 67890,0,0.1553,True,0,0,0.0,0.0,0.0,
+recommended,raw,1000,0.28,0.16,nonsense,blorptastic zinglewomp,0,0.2316,True,0,0,0.0,0.0,0.0,

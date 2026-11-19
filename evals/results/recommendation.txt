@@ -1,0 +1,23 @@
+Sector-match sweep
+==================
+54 queries (40 labelled), 2604 configurations.
+Precision, recall, and F1 are macro-averaged over labelled queries against weak
+category labels, so they understate true quality; compare configurations, do not
+read the values as absolute.
+
+Best-match similarity by wording
+  raw: real sectors 0.319-0.645 (median 0.518), ambiguous 0.252-0.405, nonsense up to 0.247. Gap between nonsense and real: +0.072
+  template: real sectors 0.755-0.844 (median 0.803), ambiguous 0.654-0.711, nonsense up to 0.626. Gap between nonsense and real: +0.129
+
+Current defaults
+  wording=raw top_k=500 min_similarity=0.30 similarity_window=0.12 | precision 0.725 recall 0.466 F1 0.523 (broad 0.382, medium 0.552, narrow 0.588) | nonsense rejected 100%, real rejected 0%, ambiguous rejected 50% | mean matched 210, capped at top_k 15%
+
+Best per wording
+  wording=raw top_k=1000 min_similarity=0.28 similarity_window=0.16 | precision 0.641 recall 0.617 F1 0.587 (broad 0.549, medium 0.630, narrow 0.569) | nonsense rejected 100%, real rejected 0%, ambiguous rejected 33% | mean matched 366, capped at top_k 10%
+  wording=template top_k=1000 min_similarity=0.64 similarity_window=0.16 | precision 0.610 recall 0.563 F1 0.538 (broad 0.542, medium 0.547, narrow 0.527) | nonsense rejected 100%, real rejected 0%, ambiguous rejected 0% | mean matched 339, capped at top_k 5%
+
+Recommended
+  wording=raw top_k=1000 min_similarity=0.28 similarity_window=0.16 | precision 0.641 recall 0.617 F1 0.587 (broad 0.549, medium 0.630, narrow 0.569) | nonsense rejected 100%, real rejected 0%, ambiguous rejected 33% | mean matched 366, capped at top_k 10%
+
+Trade-off against the current defaults
+  precision 0.725 -> 0.641, recall 0.466 -> 0.617, F1 0.523 -> 0.587, mean companies matched 210 -> 366.
